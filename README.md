@@ -23,10 +23,7 @@ but, i don't recommand to do it, high risk!!!!!!!!!!!!!! high risk, and high ris
 
 For windows:
 
-When do updating, it will download the firmware to:
-```
-C:\Users\<username>\AppData\Local\Temp
-```
+When do updating, it will download the firmware to: `C:\Users\<username>\AppData\Local\Temp`
 There are three files, something like:
 ```
 Bose Updater.fl7980 33KB
@@ -67,11 +64,7 @@ From the update log:
 ```
 We can find, after finishing download image from the internet, it will reboot the devices to reset it. So the device will disconnect to PC. And when the device disconnect, there is a notification sound from windows.
 
-So, If we hear such notification sound, copy the old firmware files to 
-```
-C:\Users\<username>\AppData\Local\Temp 
-```
-to cheat updater, then it will download the old firmware files to device and update.
+So, If we hear such notification sound, copy the old firmware files to `C:\Users\<username>\AppData\Local\Temp `to cheat updater, then it will download the old firmware files to device and update.
 
 
 # Way of downgrade BOSE QC35 ii firmware
@@ -82,11 +75,7 @@ Environment: Bose Updater ver is 6.0.0.4388, win7, chrome 75.0.3770.142
 
 2.Click update button.
 
-3.Check the name of the three firmware files in 
-```
-C:\Users\<username>\AppData\Local\Temp 
-```
-They are looks like "Bose Updater.aaNNN". These files have different name everytime when you update and are removed by BOSE updater after you finish updating.
+3.Check the name of the three firmware files in `C:\Users\<username>\AppData\Local\Temp `They are looks like "Bose Updater.aaNNN". These files have different name everytime when you update and are removed by BOSE updater after you finish updating.
 
 4.Check the size of the firmware files, match them to the old firmware files, then rename the old firmware file to the matched one.
 
@@ -102,11 +91,8 @@ So rename "BayWolf_2.5.1_acorn_coeffs_signed.xuv" to "Bose Updater.fl7980". Foll
 
 5.Wait the first "device disconnection" notification sound.Since there are several "devices reboot", you may hear several "device disconnection" notification sound. Remember, the first sound.....
 
-6.If there is a device disconnection notification sound,copy the "renamed" old firmware files to 
-```
-C:\Users\<username>\AppData\Local\Temp 
-```
-to replace the downloaded firmware files.Since there are only less than 2-5 seconds for replacing these "Bose Updater.aaNNN" firmware files. 
+6.If there is a device disconnection notification sound,copy the "renamed" old firmware files to `C:\Users\<username>\AppData\Local\Temp 
+`to replace the downloaded firmware files.Since there are only less than 2-5 seconds for replacing these "Bose Updater.aaNNN" firmware files. 
 ```
 7/19/2019 23:14:50.806, Info, Device has disconnected
 7/19/2019 23:14:57.870, Info, 1 BOSE CONNECTED DEVICE(S) WITH VID 0x05A7
@@ -122,10 +108,7 @@ You may re-update 4.5.2 several times to figure out when is the "first device di
 
   
   
-The old firmware files:
-```
-https://github.com/avicoder/Boss-headphones-firmware
-```
+The old firmware files:`https://github.com/avicoder/Boss-headphones-firmware`
 
 
 
