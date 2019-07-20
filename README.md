@@ -129,6 +129,17 @@ DISCLAIMER:
 * Take you own risk!!!!!!!!! high risk.
 
 
+# Attention
+
+Someone sent me email and said they would try. Honestly, I try two previous version firmware,  2.5.1.1182 and 3.1.8.1835. I don't find obvious ANC improvement. Since there is a risk of damage your device. Don't recommand to downgrade it.
+
+If someone insist to try.Please make sure copy the old firmware files to the `C:\Users\<username>\AppData\Local\Temp` as  fast as possible when you hear the first "device disconnection" notification sound. Not too early or too later.
+
+Since before the "device disconnection" notification sound, updater still write file to `C:\Users\<username>\AppData\Local\Temp` ,if too later, updater already read some data from `C:\Users\<username>\AppData\Local\Temp` .
+
+So need to find the timing: the upater finish writing file but doesn't start to read the firmware files, replace those files.
+
+
 # For BOSE
 
 From the downgrade process, we know it's very very easy for BOSE to enable firmware downgrading.
