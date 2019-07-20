@@ -1,7 +1,7 @@
 
 # How to downgrade bose qc35 ii firmware
 
-I success downgrade QC35II from 4.5.2 to 2.5.1.1182:
+I success downgrade QC35II from 4.5.2 to 2.5.1.1182,and the decice work well, for ANC, it's hard to say.
 ```
 7/19/2019 23:19:24.701, Error, Expecting version to be 4.5.2.144, read 2.5.1.1182
 7/19/2019 23:19:24.701, Info, Update: Waiting for external bootmode reset -> Error state
@@ -9,6 +9,7 @@ I success downgrade QC35II from 4.5.2 to 2.5.1.1182:
 7/19/2019 23:19:29.763, Info, External version is 2.5.1.1182
 7/19/2019 23:19:29.763, Info, Device version is 2.5.1.1182
 ```
+
 but, i don't recommand to do it, high risk!!!!!!!!!!!!!! high risk, and high risk.
 
 For windows:
@@ -62,21 +63,44 @@ C:\Users\<username>\AppData\Local\Temp
 ```
 to cheat updater, then it will download the old firmware files to device and update.
 
-Since there are only less than 2-5 seconds for replacing Bose Updater.xxxx firmware files. 
+# Way of downgradebose qc35 ii firmware
+
+Environment: Bose Updater ver is 6.0.0.4388, win7, chrome 75.0.3770.142
+
+1.Go to http://btu.bose.com/ , enter "a","d","v","up","down"
+
+2.Click update button.
+
+3.Check the name of three firmware files in 
+```
+C:\Users\<username>\AppData\Local\Temp 
+```
+They are looks like "Bose Updater.aaNNN"
+
+4.Check the size of the firmware files, match them to the old firmware files, then rename the old firmware file to the matched one
+
+5.Wait the device disconnection notification sound.
+
+6.If there is a device disconnection notification sound,copy the old firware files to 
+```
+C:\Users\<username>\AppData\Local\Temp 
+```
+to replace the downloaded firmware files.Since there are only less than 2-5 seconds for replacing Bose Updater.aaNNN firmware files. 
 ```
 7/19/2019 23:14:50.806, Info, Device has disconnected
 7/19/2019 23:14:57.870, Info, 1 BOSE CONNECTED DEVICE(S) WITH VID 0x05A7
 ```
 You must do it as fast as you can, otherwise it may brick/damage the device.
 
-When the new firmware is downloading, rename the old firmware files same as the correspond one in 
-```
-C:\Users\<username>\AppData\Local\Temp. 
-```
-Check the size of these files, you know how to match them.
+7.Wait updater update the "cheated new firmware files"
+
+8.When updating up to 100%, may show error message, just ignore it.
+
+10.Check you device, the firmware is downgraded. 
+
   
   
-You can find the old firmware files frome:
+The old firmware files:
 ```
 https://github.com/avicoder/Boss-headphones-firmware
 ```
