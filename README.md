@@ -116,10 +116,7 @@ Environment: Bose Updater ver is 6.0.0.4388, win7, chrome 75.0.3770.142
 
   
   
-The old firmware files:
-```
-https://github.com/avicoder/Boss-headphones-firmware
-```
+There are the [previous firmware files](https://github.com/avicoder/Boss-headphones-firmware) include 2.5.1.1182 and 3.1.8.1835
 
 
 DISCLAIMER:
@@ -144,7 +141,7 @@ So need to find the timing: the upater finish writing file but doesn't start to 
 
 From the downgrade process, we know it's very very easy for BOSE to enable firmware downgrading.
 
-Actually,for QC35 II,which firmware will be updated is controled by `http://downloads.bose.com/ced/baywolf/index.xml`
+Actually,for QC35 II,which firmware will be updated is controled by a [xml](http://downloads.bose.com/ced/baywolf/index.xml) file
 ```
 <INDEX REVISION="01.00.00">
   <DEVICE ID="0x4020" PRODUCTNAME="Bose QuietComfort 35 II">
@@ -163,7 +160,7 @@ It include firmware downloading address,name,etc. BOSE can just modify or add mo
 
 BOSE lost customers' trust and breaken customers' hearts.Force their customer take high risk to do such "downgrade".
 
-Some of the complains from `https://community.bose.com/t5/Around-On-Ear-Headphones/Bose-QC-35-ii-firmware-4-5-2/td-p/213820`
+Some of the complains from [BOSE Community](https://community.bose.com/t5/Around-On-Ear-Headphones/Bose-QC-35-ii-firmware-4-5-2/td-p/213820)
 
 ```
 Either we're all going mad, and the tests by that site that measured the change in the ANC are a figment of our imagination。
