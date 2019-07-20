@@ -9,10 +9,14 @@ I success downgrade QC35II from 4.5.2 to 2.5.1.1182:
 7/19/2019 23:19:29.763, Info, External version is 2.5.1.1182
 7/19/2019 23:19:29.763, Info, Device version is 2.5.1.1182
 ```
-## but, i don't recommand to do it, high risk!!!!!!!!!!!!!! high risk, and high risk.
+but, i don't recommand to do it, high risk!!!!!!!!!!!!!! high risk, and high risk.
 
 For windows:
-When do updating, it will download the firmware to C:\Users\<username>\AppData\Local\Temp, there are three files, something like:
+When do updating, it will download the firmware to:
+```
+C:\Users\<username>\AppData\Local\Temp
+```
+There are three files, something like:
 ```
 Bose Updater.fl7980 33KB
 Bose Updater.Nl7980 22089KB
@@ -52,12 +56,12 @@ From the update log:
 ```
 We can find, after finishing download image from the internet, it will reboot the devices to reset it. So the device will disconnect to PC. And when the device disconnect, there is a notification sound from windows.
 
-So, If we hear such notification sould, copy the old firmware files to C:\Users\<username>\AppData\Local\Temp to cheat updater, then it will download the old firmware files to device and update.
+So, If we hear such notification sould, copy the old firmware files to 
+```
+C:\Users\<username>\AppData\Local\Temp 
+```
+to cheat updater, then it will download the old firmware files to device and update.
 
-The old firmware files are
-```
-https://github.com/avicoder/Boss-headphones-firmware
-```
 Since there are only less than 2-5 seconds for replacing Bose Updater.xxxx firmware files. 
 ```
 7/19/2019 23:14:50.806, Info, Device has disconnected
@@ -65,7 +69,19 @@ Since there are only less than 2-5 seconds for replacing Bose Updater.xxxx firmw
 ```
 You must do it as fast as you can, otherwise it may brick/damage the device.
 
-So when the new firmware is downloading, rename the old firmware files same as the correspond one in C:\Users<username>\AppData\Local\Temp. Check the size of these files, you know how to match them.
+When the new firmware is downloading, rename the old firmware files same as the correspond one in 
+```
+C:\Users\<username>\AppData\Local\Temp. 
+```
+Check the size of these files, you know how to match them.
+  
+  
+You can find the old firmware files frome:
+```
+https://github.com/avicoder/Boss-headphones-firmware
+```
+
+
 
 again, high risk!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 i don't recommand you to do it, take you own risk!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! high risk.
