@@ -1,13 +1,22 @@
 
 # How to downgrade bose QC35 ii firmware
 
-I success downgrade QC35II from 4.5.2 to 2.5.1.1182,and the decice work well, for ANC, it's hard to say.
+I success downgrade QC35II from 4.5.2 to 2.5.1.1182 then to 3.1.8.1835,and the decice work well, for ANC, it's hard to say.
+
 ```
 7/19/2019 23:19:24.701, Error, Expecting version to be 4.5.2.144, read 2.5.1.1182
 7/19/2019 23:19:24.701, Info, Update: Waiting for external bootmode reset -> Error state
 7/19/2019 23:19:29.763, Info, Internal version is 2.5.1.1182
 7/19/2019 23:19:29.763, Info, External version is 2.5.1.1182
 7/19/2019 23:19:29.763, Info, Device version is 2.5.1.1182
+```
+
+```
+7/20/2019 09:22:55.212,  Error,      Expecting version to be 4.5.2.144, read 3.1.8.1835
+7/20/2019 09:22:55.212,  Info,       Update: Waiting for external bootmode reset -> Error state
+7/20/2019 09:23:11.885,  Info,       Internal version is 3.1.8.1835
+7/20/2019 09:23:11.886,  Info,       External version is 3.1.8.1835
+7/20/2019 09:23:11.886,  Info,       Device version is 3.1.8.1835
 ```
 
 but, i don't recommand to do it, high risk!!!!!!!!!!!!!! high risk, and high risk.
