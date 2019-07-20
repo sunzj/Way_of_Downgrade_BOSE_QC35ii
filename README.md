@@ -1,7 +1,9 @@
 
 # How to downgrade bose QC35 ii firmware
 
-I success downgrade QC35II from 4.5.2 to 2.5.1.1182 then to 3.1.8.1835,and the decice work well, for ANC, it's hard to say.
+I success downgrade QC35II firmware from 4.5.2 to 2.5.1.1182 then to 3.1.8.1835,and the device work well, for ANC, it's hard to say,better or not....
+
+Who knows which is the best firmware? if someone knows, just file a issue and provide the firmware address. I may try it.
 
 ```
 7/19/2019 23:19:24.701, Error, Expecting version to be 4.5.2.144, read 2.5.1.1182
@@ -19,7 +21,7 @@ I success downgrade QC35II from 4.5.2 to 2.5.1.1182 then to 3.1.8.1835,and the d
 7/20/2019 09:23:11.886,  Info,       Device version is 3.1.8.1835
 ```
 
-but, i don't recommand to do it, high risk!!!!!!!!!!!!!! high risk, and high risk.
+However, Don't recommand to downgrade it, high risk!!!!!!!!!!!!!! high risk, and high risk.
 
 For windows:
 
@@ -62,9 +64,9 @@ From the update log:
 7/19/2019 23:16:06.480, Info, DoUpgrade: Data left to write {0}
 7/19/2019 23:16:06.480, Info, DoUpgrade: retVal {0}
 ```
-We can find, after finishing download image from the internet, it will reboot the devices to reset it. So the device will disconnect to PC. And when the device disconnect, there is a notification sound from windows.
+We can find, after finishing download firmware files from the internet, it will reboot the devices to reset it, so the device will disconnect to PC. And when the device disconnect, there is a notification sound from windows.
 
-So, If we hear such notification sound, copy the old firmware files to `C:\Users\<username>\AppData\Local\Temp `to cheat updater, then it will download the old firmware files to device and update.
+So, If we hear such notification sound, copy the old firmware files to `C:\Users\<username>\AppData\Local\Temp `to cheat updater, then it will push the old firmware files to device and update.
 
 
 # Way of downgrade BOSE QC35 ii firmware
@@ -90,20 +92,27 @@ Environment: Bose Updater ver is 6.0.0.4388, win7, chrome 75.0.3770.142
  ```
    So rename "BayWolf_2.5.1_acorn_coeffs_signed.xuv" to "Bose Updater.fl7980". Follow such way and rename all these three firmware files.
 
-6.Wait the first "device disconnection" notification sound.Since there are several "devices reboot", you may hear several "device disconnection" notification sound. Remember, the first sound.....
+6.Wait the first "device disconnection" notification sound.Since the devices reboot serveral times during updating, you can hear "device disconnection" notification sound several times. Remember, the first sound.....
 
-7.If there is a device disconnection notification sound,copy the "renamed" old firmware files to `C:\Users\<username>\AppData\Local\Temp `to replace the downloaded firmware files.Since there are only less than 2-5 seconds for replacing these "Bose Updater.aaNNN" firmware files. 
+7.If there is the first "device disconnection" notification sound,copy the "renamed" old firmware files to `C:\Users\<username>\AppData\Local\Temp `to replace the downloaded firmware files.There are only less than 5 seconds for replacing those "Bose Updater.aaNNN" firmware files. 
 ```
 7/19/2019 23:14:50.806, Info, Device has disconnected
 7/19/2019 23:14:57.870, Info, 1 BOSE CONNECTED DEVICE(S) WITH VID 0x05A7
 ```
-  MUST MUST do it as fast as you hear the first device disconnection notification sound,otherwise it may brick/damage the device.You may re-update 4.5.2 several times to figure out when is the "first device disconnection notification sound".
+  MUST MUST do it as fast as you can once hear the first notification sound of "device disconnection",otherwise it may brick/damage the device.You can re-update 4.5.2 several times to figure out when is the first "device disconnection" notification sound.
 
 8.Wait updater update the "cheated new firmware files"
 
 9.When updating up to 100%, may show error message, just ignore it.
 
-10.Check you device, the firmware is downgraded. 
+ I encounter two different case:
+ 
+    1).there wasn't progress bar on http://btu.bose.com/. but countdown.
+    2).there was a progress bar, but went go 100%, error message shows out.
+    
+ However,at last downgrading are success. Just be patient and wait about 5 minutes.
+ 
+ 10.Check you device, the firmware is downgraded. 
 
   
   
@@ -113,4 +122,71 @@ https://github.com/avicoder/Boss-headphones-firmware
 ```
 
 
-Again, high risk!!!!!!!!!!!!!! i don't recommand you to do it, take you own risk!!!!!!!!! high risk.
+* Again, high risk!!!!!!!!!!!!!! It may damage your device.
+* I just share the way of downgrading QC35 ii firmware but don't recommand or encourage anyone to do it.
+* Take you own risk!!!!!!!!! high risk.
+
+
+# For BOSE
+
+From the downgrade process, we know it's very very easy for BOSE to enable firmware downgrading.
+
+Actually,for QC35 II,which firmware will be updated is controled by `http://downloads.bose.com/ced/baywolf/index.xml`
+
+It include firmware downloading address,name,etc. BOSE can just modify or add more different firmwares in this XML, but they DO NOT DO anything.
+
+BOSE lost customers' trust and breaken customers' hearts.Force their customer take high risk to do such "downgrade"
+
+Some of the complains from `https://community.bose.com/t5/Around-On-Ear-Headphones/Bose-QC-35-ii-firmware-4-5-2/td-p/213820`
+
+```
+Either we're all going mad, and the tests by that site that measured the change in the ANC are a figment of our imagination。
+```
+
+```
+Repeating over and over that "nothing was changed" is not helpful
+```
+
+```
+BOSE: test the firmware use your own EARS!!!
+```
+
+```
+no impact to ANC was detected ? This is just ridiculous!
+```
+
+```
+It will still fail. I updated my old ones, fail. I updated my new replacements, fail. Its only fail fail fail...
+```
+
+```
+Tried downgrading, tried resetting, nothing changed the situation.
+
+Since I am in my 30 deays since purchase, I will return them and ask for my money back.
+
+After reading all posts here I have no confidence Bose will do something about it in a reasonable amount of time.
+
+I am so sorry to let them go, they were so comfortable.
+```
+
+```
+i am sure about what i said my ears are good...
+```
+
+
+```
+Yes, before the update we could not hear anything(almost). Now after the update we can hear more sound from outside.
+```
+
+```
+I dont think all of us suddenly got a better hearing after using bose. We getting older every day..
+
+
+Maaaybe that is what they want to say, use Bose and you will get a better hearing...AHAAAAA NOW I GET IT...
+
+Truly disappointed with all of this
+```
+
+```
+What Bose has done here is so unethical, I really don't have words for it.
+```
