@@ -65,7 +65,7 @@ C:\Users\<username>\AppData\Local\Temp
 to cheat updater, then it will download the old firmware files to device and update.
 
 
-# Way of downgradebose qc35 ii firmware
+# Way of downgrade BOSE QC35 ii firmware
 
 Environment: Bose Updater ver is 6.0.0.4388, win7, chrome 75.0.3770.142
 
