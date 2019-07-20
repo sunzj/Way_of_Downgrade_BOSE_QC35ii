@@ -77,8 +77,9 @@ Environment: Bose Updater ver is 6.0.0.4388, win7, chrome 75.0.3770.142
 
 3.Check the name of the three firmware files in `C:\Users\<username>\AppData\Local\Temp `They are looks like "Bose Updater.aaNNN". These files have different name everytime when you update and are removed by BOSE updater after you finish updating.
 
-4.Check the size of the firmware files, match them to the old firmware files,
-5.rename the old firmware file to the matched one.
+4.Check the size of the firmware files, match them to the old firmware files.
+
+5.Rename the old firmware file to the matched one.
  For example:
  ```
  Bose Updater.fl7980 33KB
