@@ -91,7 +91,7 @@ BayWolf_2.5.1_acorn_coeffs_signed.xuv  33KB
 ```
 So rename "BayWolf_2.5.1_acorn_coeffs_signed.xuv" to "Bose Updater.fl7980". Follow such way and rename all these three firmware files.
 
-5.Wait the device disconnection notification sound.
+5.Wait the first "device disconnection" notification sound.Since there are several "devices reboot", you may hear several "device disconnection" notification sound. Remember, the first sound.....
 
 6.If there is a device disconnection notification sound,copy the "renamed" old firmware files to 
 ```
