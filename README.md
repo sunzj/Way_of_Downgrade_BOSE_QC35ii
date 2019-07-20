@@ -13,6 +13,7 @@ I success downgrade QC35II from 4.5.2 to 2.5.1.1182,and the decice work well, fo
 but, i don't recommand to do it, high risk!!!!!!!!!!!!!! high risk, and high risk.
 
 For windows:
+
 When do updating, it will download the firmware to:
 ```
 C:\Users\<username>\AppData\Local\Temp
@@ -23,7 +24,7 @@ Bose Updater.fl7980 33KB
 Bose Updater.Nl7980 22089KB
 Bose Updater.Ya7980 1897KB
 ```
-Comparing these files by Beyond Compare 4 i find actully they are the 100% same file:
+Comparing these files by Beyond Compare 4 I find actully they are the 100% same file:
 ```
 BayWolf_4.5.2_acorn_coeffs_signed.xuv 33KB
 BayWolf_4.5.2_ext_signed.xuv 22089KB
@@ -57,11 +58,12 @@ From the update log:
 ```
 We can find, after finishing download image from the internet, it will reboot the devices to reset it. So the device will disconnect to PC. And when the device disconnect, there is a notification sound from windows.
 
-So, If we hear such notification sould, copy the old firmware files to 
+So, If we hear such notification sound, copy the old firmware files to 
 ```
 C:\Users\<username>\AppData\Local\Temp 
 ```
 to cheat updater, then it will download the old firmware files to device and update.
+
 
 # Way of downgradebose qc35 ii firmware
 
@@ -71,26 +73,36 @@ Environment: Bose Updater ver is 6.0.0.4388, win7, chrome 75.0.3770.142
 
 2.Click update button.
 
-3.Check the name of three firmware files in 
+3.Check the name of the three firmware files in 
 ```
 C:\Users\<username>\AppData\Local\Temp 
 ```
-They are looks like "Bose Updater.aaNNN"
+They are looks like "Bose Updater.aaNNN". These files have different name everytime when you update and are removed by BOSE updater after you finish updating.
 
-4.Check the size of the firmware files, match them to the old firmware files, then rename the old firmware file to the matched one
+4.Check the size of the firmware files, match them to the old firmware files, then rename the old firmware file to the matched one.
+
+For example:
+```
+Bose Updater.fl7980 33KB
+```
+match with 
+```
+BayWolf_2.5.1_acorn_coeffs_signed.xuv  33KB
+```
+So we rename "BayWolf_2.5.1_acorn_coeffs_signed.xuv" to "Bose Updater.fl7980". Follow such way to rename all three firmware files.
 
 5.Wait the device disconnection notification sound.
 
-6.If there is a device disconnection notification sound,copy the old firware files to 
+6.If there is a device disconnection notification sound,copy the "renamed" old firmware files to 
 ```
 C:\Users\<username>\AppData\Local\Temp 
 ```
-to replace the downloaded firmware files.Since there are only less than 2-5 seconds for replacing Bose Updater.aaNNN firmware files. 
+to replace the downloaded firmware files.Since there are only less than 2-5 seconds for replacing these "Bose Updater.aaNNN" firmware files. 
 ```
 7/19/2019 23:14:50.806, Info, Device has disconnected
 7/19/2019 23:14:57.870, Info, 1 BOSE CONNECTED DEVICE(S) WITH VID 0x05A7
 ```
-You must do it as fast as you can, otherwise it may brick/damage the device.
+Must do it as fast as you can, otherwise it may brick/damage the device.
 
 7.Wait updater update the "cheated new firmware files"
 
