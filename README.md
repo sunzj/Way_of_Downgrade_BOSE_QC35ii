@@ -97,8 +97,7 @@ Environment: Bose Updater ver is 6.0.0.4388, win7, chrome 75.0.3770.142
 7/19/2019 23:14:50.806, Info, Device has disconnected
 7/19/2019 23:14:57.870, Info, 1 BOSE CONNECTED DEVICE(S) WITH VID 0x05A7
 ```
-  MUST MUST do it as fast as you hear the first device disconnection notification sound,otherwise it may brick/damage the device.
-You may re-update 4.5.2 several times to figure out when is the "first device disconnection notification sound".
+  MUST MUST do it as fast as you hear the first device disconnection notification sound,otherwise it may brick/damage the device.You may re-update 4.5.2 several times to figure out when is the "first device disconnection notification sound".
 
 8.Wait updater update the "cheated new firmware files"
 
@@ -114,5 +113,4 @@ https://github.com/avicoder/Boss-headphones-firmware
 ```
 
 
-
-again, high risk!!!!!!!!!!!!!! i don't recommand you to do it, take you own risk!!!!!!!!! high risk.
+Again, high risk!!!!!!!!!!!!!! i don't recommand you to do it, take you own risk!!!!!!!!! high risk.
