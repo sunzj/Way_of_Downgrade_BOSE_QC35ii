@@ -111,7 +111,8 @@ to replace the downloaded firmware files.Since there are only less than 2-5 seco
 7/19/2019 23:14:50.806, Info, Device has disconnected
 7/19/2019 23:14:57.870, Info, 1 BOSE CONNECTED DEVICE(S) WITH VID 0x05A7
 ```
-Must do it as fast as you can, otherwise it may brick/damage the device.
+MUST MUST do it as fast as you hear the first device disconnection notification sound,otherwise it may brick/damage the device.
+You may re-update 4.5.2 several times to figure out when is the "first device disconnection notification sound".
 
 7.Wait updater update the "cheated new firmware files"
 
