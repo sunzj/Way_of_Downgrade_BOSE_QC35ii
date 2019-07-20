@@ -1,5 +1,5 @@
 
-# How to downgrade bose qc35 ii firmware
+# How to downgrade bose QC35 ii firmware
 
 I success downgrade QC35II from 4.5.2 to 2.5.1.1182,and the decice work well, for ANC, it's hard to say.
 ```
@@ -107,5 +107,4 @@ https://github.com/avicoder/Boss-headphones-firmware
 
 
 
-again, high risk!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-i don't recommand you to do it, take you own risk!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! high risk.
+again, high risk!!!!!!!!!!!!!! i don't recommand you to do it, take you own risk!!!!!!!!! high risk.
