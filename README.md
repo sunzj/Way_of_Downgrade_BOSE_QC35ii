@@ -89,7 +89,7 @@ match with
 ```
 BayWolf_2.5.1_acorn_coeffs_signed.xuv  33KB
 ```
-So we rename "BayWolf_2.5.1_acorn_coeffs_signed.xuv" to "Bose Updater.fl7980". Follow such way to rename all three firmware files.
+So rename "BayWolf_2.5.1_acorn_coeffs_signed.xuv" to "Bose Updater.fl7980". Follow such way and rename all these three firmware files.
 
 5.Wait the device disconnection notification sound.
 
