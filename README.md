@@ -77,7 +77,8 @@ Environment: Bose Updater ver is 6.0.0.4388, win7, chrome 75.0.3770.142
 
 3.Check the name of the three firmware files in `C:\Users\<username>\AppData\Local\Temp `They are looks like "Bose Updater.aaNNN". These files have different name everytime when you update and are removed by BOSE updater after you finish updating.
 
-4.Check the size of the firmware files, match them to the old firmware files, then rename the old firmware file to the matched one.
+4.Check the size of the firmware files, match them to the old firmware files,
+5.rename the old firmware file to the matched one.
  For example:
  ```
  Bose Updater.fl7980 33KB
@@ -88,9 +89,9 @@ Environment: Bose Updater ver is 6.0.0.4388, win7, chrome 75.0.3770.142
  ```
    So rename "BayWolf_2.5.1_acorn_coeffs_signed.xuv" to "Bose Updater.fl7980". Follow such way and rename all these three firmware files.
 
-5.Wait the first "device disconnection" notification sound.Since there are several "devices reboot", you may hear several "device disconnection" notification sound. Remember, the first sound.....
+6.Wait the first "device disconnection" notification sound.Since there are several "devices reboot", you may hear several "device disconnection" notification sound. Remember, the first sound.....
 
-6.If there is a device disconnection notification sound,copy the "renamed" old firmware files to `C:\Users\<username>\AppData\Local\Temp `to replace the downloaded firmware files.Since there are only less than 2-5 seconds for replacing these "Bose Updater.aaNNN" firmware files. 
+7.If there is a device disconnection notification sound,copy the "renamed" old firmware files to `C:\Users\<username>\AppData\Local\Temp `to replace the downloaded firmware files.Since there are only less than 2-5 seconds for replacing these "Bose Updater.aaNNN" firmware files. 
 ```
 7/19/2019 23:14:50.806, Info, Device has disconnected
 7/19/2019 23:14:57.870, Info, 1 BOSE CONNECTED DEVICE(S) WITH VID 0x05A7
@@ -98,11 +99,11 @@ Environment: Bose Updater ver is 6.0.0.4388, win7, chrome 75.0.3770.142
   MUST MUST do it as fast as you hear the first device disconnection notification sound,otherwise it may brick/damage the device.
 You may re-update 4.5.2 several times to figure out when is the "first device disconnection notification sound".
 
-7.Wait updater update the "cheated new firmware files"
+8.Wait updater update the "cheated new firmware files"
 
-8.When updating up to 100%, may show error message, just ignore it.
+9.When updating up to 100%, may show error message, just ignore it.
 
-9.Check you device, the firmware is downgraded. 
+10.Check you device, the firmware is downgraded. 
 
   
   
