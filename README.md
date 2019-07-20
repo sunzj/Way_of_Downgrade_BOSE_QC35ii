@@ -24,7 +24,7 @@ Bose Updater.fl7980 33KB
 Bose Updater.Nl7980 22089KB
 Bose Updater.Ya7980 1897KB
 ```
-Comparing these files by Beyond Compare 4 I find actully they are the 100% same file:
+Comparing these files by Beyond Compare 4 bytes by bytes.I find actully they are the 100% same files:
 ```
 BayWolf_4.5.2_acorn_coeffs_signed.xuv 33KB
 BayWolf_4.5.2_ext_signed.xuv 22089KB
