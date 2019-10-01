@@ -1,4 +1,6 @@
 
+Now, there is tool in https://github.com/bosefirmware for downgrading BOSE firmware,it could be more safety.
+
 # How to downgrade bose QC35 ii firmware
 
 I success downgrade QC35II firmware from 4.5.2 to 2.5.1.1182 then to 3.1.8.1835,and the device work well, for ANC, it's hard to say,better or not....
